@@ -1,23 +1,53 @@
+
 body{
-    margin: 0%;
-    padding: 0%;
-    background-image: url('images/#hero-cover.3.png');
+    margin: 0;
+    padding: 0;
+    
+
+}
+.home{
+    background-image: url('images/hero.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+nav li{
+    display: inline;
+    margin-left: 100px;
+   
+    
+   
+}
+.FirstPart{
+    text-align: center;
+    margin-top: 15%;
+
 }
 
-.Titles ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
-    margin-top: 10px;
-    align-items: center;
+.FirstPart button{
+    text-align: center;
+    border-radius: 20px;
+    padding: 7px;
+    border: none;
+    color: white;
+
+
 }
-.Titles ul li {
-    margin-right: 100px;
-    list-style-type: none;
-    text-decoration: none;
+.FirstPart .btn1{
+    background-color: blue;
 }
-.SecondPart{
-    justify-content: right;
-    flex-direction: row;
-    margin-right: 60px;
+.FirstPart .btn2{
+    background-color: white;
+
 }
+.grid-item{
+    display: inline-grid;
+    grid-template-rows: auto auto auto;
+    text-align: center;
+    margin-right: 5%;
+    margin-left: 13%;
+    border: 2px solid black;
+    margin-top: -100px;
+}
+
