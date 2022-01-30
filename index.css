@@ -158,3 +158,23 @@ nav li{
 .consult{
     background-color:rgb(196, 202, 202);
 }
+.footer1{
+    display: flex;
+    justify-content:center;
+    background-color: white;
+    flex-direction: row;
+}
+.company{
+    margin:50px;
+}
+.company ul{
+    list-style: none;
+}
+.images{
+    justify-content: right;
+    flex-direction: row;
+    display: flex;
+}
+.img1{
+    margin: 10px;
+}
