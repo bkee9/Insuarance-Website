@@ -51,3 +51,110 @@ nav li{
     margin-top: -100px;
 }
 
+.part2{
+    display: inline-grid;
+    grid-template-rows: auto auto auto;
+    text-align: center;
+    margin-right: 5%;
+    margin-left: 13%;
+    margin-top: 50px;
+}
+.cash{
+    text-align: center;
+}
+.icons img{
+    text-align: center;
+    margin: 20px;
+    
+}
+.icons{
+    margin-left: 30%;
+    margin-top: 100px;
+}
+
+.part3{
+    display: inline-grid;
+    grid-template-rows: auto auto auto;
+    text-align: center;
+    height: 300px;
+    margin-left: 15%;
+    margin-top: 50px;
+    border: 2px solid rgba(0, 0, 0, 0.116);
+    padding: 30px;
+    background-color: white;
+}
+.part3 img{
+    margin-left: 50px;
+    
+    
+}
+.ThirdPart{
+    background-color:  rgba(176, 224, 230, 0.253);
+}
+.news{
+    background-image: linear-gradient(to right, blue , purple);
+    padding: 10px;
+    margin-right: 90px;
+    margin-left: 40px;
+}
+.news .details{
+    display: inline-grid;
+    grid-template-rows: auto auto auto;
+    text-align: center;
+    
+   
+    
+}
+.news button{
+    padding: 5px;
+    margin-left: -10px;
+    background-color: lightblue;
+    border: none;
+    
+    
+}
+.news input{
+    padding: 5px;
+    
+   
+}
+.sub{
+    margin-left: 70%;
+    
+}
+.part4{
+    text-align: center;
+}
+
+.Amount{
+    margin-left: 20%;
+}
+
+.price{
+    display: inline-grid;
+    grid-template-rows: auto auto auto;
+    text-align: center;
+    border: 2px solid lightblue;
+    margin-top: 50px;
+    padding: 40px;
+    background-color: white;
+    margin-top: 100px;
+}
+.stand{
+    background-color: rgb(25, 25, 66);
+    color: white;
+    margin-top: 50px;
+    
+
+}
+.form{
+    margin-left: 100px;
+    height: 400px;
+    position:relative; left:100px; top: -30px;
+}
+.book2{
+    background-color: blue;
+}
+.consult{
+    background-color:rgb(196, 202, 202);
+}
